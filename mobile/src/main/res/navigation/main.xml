@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main">
+
+    <include app:graph="@navigation/station" />
+    <include app:graph="@navigation/weather" />
+
+    <action
+            android:id="@+id/action_global_weather"
+            app:destination="@id/weather" />
+    <action
+            android:id="@+id/action_global_station"
+            app:destination="@id/station" />
+
+</navigation>

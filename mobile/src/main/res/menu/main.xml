@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/weather_tab"
+            android:title="Weather"
+            android:titleCondensed="Weather"
+            android:icon="@drawable/outline_wb_cloudy_24"/>
+
+    <item
+            android:id="@+id/station_tab"
+            android:title="Stations"
+            android:titleCondensed="Stations"
+            android:icon="@drawable/outline_ev_station_24"/>
+
+</menu>
